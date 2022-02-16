@@ -19,13 +19,13 @@ img {
 
 /* 1.2 Verander de kleur van alle list items in de unordered list naar hsl(110, 29%, 52%) */
 
-.places-to-visit li {
+li {
     color: hsl(110, 29%, 52%);
 }
 
 /* 1.3 Geef de 'span' tag in de footer een beschrijvende class name en maak de lettergrootte kleiner  */
 
-.copywright{
+span {
     font-size: 7px;
 }
 
