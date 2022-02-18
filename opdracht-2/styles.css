@@ -3,3 +3,56 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+/*Opdracht 2.1*/
+.one {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+/*Opdracht 2*/
+.two {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Opdracht 3*/
+.three {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three ul {
+    display:flex;
+    list-style:none;
+    justify-content: space-between;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/*Opdracht 4*/
+.four {
+    display: flex;
+    flex-basis: 100px;
+    justify-items: flex-end;
+}
+
+/*#username {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-items: flex-end;*/
+/*    align-items: center;*/
+/*}*/
+
+/*#password {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-items: center;*/
+/*    align-items: center;*/
+/*}*/
