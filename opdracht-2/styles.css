@@ -3,56 +3,84 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+/*
+//INHOUDSOPGAVE//
+Opdracht 2.1
+Opdracht 2.2
+Opdracht 2.3
+Opdracht 2.4
+Opdracht 2.5
+ */
 /*Opdracht 2.1*/
 .one {
     display: flex;
-    flex-basis: 100%;
+    flex-basis: 100px;
     flex-direction: column;
     justify-content: flex-end;
     align-content: flex-start;
 }
 
-/*Opdracht 2*/
+/*Opdracht 2.2*/
 .two {
     display: flex;
-    flex-basis: 100%;
-    flex-direction: row;
+    flex-basis: 100px;
     justify-content: space-between;
 }
 
-/*Opdracht 3*/
+/*Opdracht 2.3*/
 .three {
-    display:flex;
+    display: flex;
+    flex-basis: 100px;
     justify-content: space-between;
     align-items: center;
 }
 
 .three ul {
-    display:flex;
-    list-style:none;
-    justify-content: space-between;
+    display: flex;
     flex-basis: 300px;
     flex-grow: 0;
     flex-shrink: 0;
+    list-style: none;
+    justify-content: space-between;
 }
 
-/*Opdracht 4*/
+/*Opdracht 2.4*/
 .four {
     display: flex;
     flex-basis: 100px;
-    justify-items: flex-end;
+    flex-shrink: 0;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
 }
 
-/*#username {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-items: flex-end;*/
-/*    align-items: center;*/
-/*}*/
+form {
+    display: flex;
+    flex-basis: 400px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-/*#password {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-items: center;*/
-/*    align-items: center;*/
-/*}*/
+/*Opdracht 2.5*/
+
+.five {
+    display: flex;
+    flex-basis: 100px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 360px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+
